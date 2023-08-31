@@ -1,16 +1,18 @@
-### Hi there 👋
+# My Personal Website
+This repository contains the code for my personal website hosted on Github Pages which features some of my github projects as well as my resume and technical skills.
 
-<!--
-**0ZMilad/0ZMilad** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+About the Website
+- Built with HTML, CSS and vanilla JavaScript
+- Fully responsive design
+- Optimized for performance
 
-Here are some ideas to get you started:
+# Getting Started
+Clone this repository & You will need git installed globally on your machine.
+# Customization
+The website can be customized by editing:
+- HTML files in the root folder
+- CSS styles in /css/styles.css
+- JavaScript in /js/scripts.js
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+# Contact
+Milad - Milad.Amini2026@gmail.com
