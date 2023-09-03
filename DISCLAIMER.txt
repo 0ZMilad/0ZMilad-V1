@@ -1,0 +1,7 @@
+Disclaimer:
+
+This project is provided "as-is" and without warranty. It is intended for educational and informational purposes only. The author and contributors to this project make no claims regarding its fitness for any purpose. Users are encouraged to review and respect any third-party licenses and intellectual property rights that may apply to the project's components or dependencies.
+
+Give credit to owners if used.
+
+Use this project at your own risk.
