@@ -6,6 +6,8 @@ About the Website
 - Fully responsive design
 - Optimized for performance
 
+![Demo GIF](https://github.com/0ZMilad/0ZMilad/blob/2a6f2f106078f58fcc708e3de919f669d57ca3ff/docs/images/Web%20Demo%20Giff%202023.gif)
+
 # Getting Started
 Clone this repository & You will need git installed globally on your machine.
 # Customization
