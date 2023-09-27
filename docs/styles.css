@@ -24,13 +24,13 @@ body {
 /* Home section styles */
 .name-section {
   text-align: center;
-  padding: 10px 0;
+  padding: 7px 0;
 }
 
 .name-section h1 {
   font-size: 66px;
   margin-bottom: 0;
-  padding-top: 13%;
+  padding-top: 10%;
   color: #000000;
 }
 
@@ -101,7 +101,8 @@ footer {
   color: #464646;
   text-align: center;
   position: inherit;
-  padding-top: 16rem;
+  padding-top: 3rem;
+  margin-top: 14%;
 }
 
 /* Canvas */
