@@ -18,5 +18,7 @@ The website can be customized by editing:
 
 # Credits
 Usage of favicons was made using icons8.com
-# Contact
-Milad - Milad.Amini2026@gmail.com
+
+<!-- # Contact
+Milad - Milad.Amini2026@gmail.com --> 
+
