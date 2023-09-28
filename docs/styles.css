@@ -15,7 +15,7 @@ body {
   display: flex;
   flex-direction: column;
   width: 100%;
-  height: 2rem;
+  height: 1rem;
   background-image:
     radial-gradient(circle at top right, rgb(255, 255, 255), transparent),
     radial-gradient(circle at 20% 80%, rgb(238, 236, 236), transparent);
@@ -47,7 +47,7 @@ body {
 .social-links {
   position: relative;
   text-align: center;
-  margin-top: 10px;
+
   z-index: 1;
 }
 
@@ -60,23 +60,23 @@ body {
 }
 
 .social-links a img.social-icon {
-  width: 55px;
-  height: 55px;
+  width: 60px;
+  height: 60px;
   border-radius: 50%;
   transition: transform 0.3s ease;
 }
 
 a#Anim {
-  transition: all 0.5s ease-in-out;
+  transition: all 0.53s ease-in-out;
 
 }
 
 a#Anim:hover {
-  transform: scale(1.2);
+  transform: scale(1.25);
 }
 
 
-/* Journey section styles */
+/* Journey section styles 
 .journey {
   color: #464646;
 }
@@ -94,6 +94,8 @@ a#Anim:hover {
   text-decoration-color: rgba(211, 206, 206, 0.3);
 }
 
+*/
+
 /* Footer styles */
 footer {
   bottom: 0;
@@ -101,7 +103,7 @@ footer {
   color: #464646;
   text-align: center;
   position: inherit;
-  padding-top: 3rem;
+  padding-top: 2rem;
   margin-top: 14%;
 }
 
