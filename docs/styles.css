@@ -123,7 +123,7 @@ canvas {
   z-index: 0;
 }
 
-@media (max-width: 1920px) {
+@media (aspect-ratio: 1370/952) {
   /* Zooming out to optimise the screen for 1920px screens*/
   .name-section {
     zoom: 0.75;
