@@ -14,17 +14,17 @@ body {
   background-color: #1d2026;
   display: flex;
   flex-direction: column;
-  width: 100%;
-  height: 1rem;
-  background-image:
-    radial-gradient(circle at top right, rgb(255, 255, 255), transparent),
-    radial-gradient(circle at 20% 80%, rgb(238, 236, 236), transparent);
+  min-height: 100vh;
+  /* Ensure the body takes up the full viewport height */
+  background-image: radial-gradient(circle at top right, rgb(255, 255, 255), transparent), radial-gradient(circle at 20% 80%, rgb(238, 236, 236), transparent);
 }
 
 /* Home section styles */
 .name-section {
   text-align: center;
   padding: 7px 0;
+  flex-grow: 1;
+  /* Fill the remaining vertical space */
 }
 
 .name-section h1 {
@@ -45,18 +45,20 @@ body {
 }
 
 .social-links {
-  position: relative;
   text-align: center;
-
   z-index: 1;
 }
 
+/* Social links hover effect */
 .social-links a {
   display: inline-block;
   margin-right: 10px;
   cursor: auto;
   text-decoration: none;
   color: #ffffff;
+  position: relative;
+  z-index: 1;
+  /* Set a default z-index */
 }
 
 .social-links a img.social-icon {
@@ -66,15 +68,19 @@ body {
   transition: transform 0.3s ease;
 }
 
+/* Increase z-index on hover */
+.social-links a:hover {
+  z-index: 2;
+  /* Set a higher z-index on hover */
+}
+
 a#Anim {
   transition: all 0.53s ease-in-out;
-
 }
 
 a#Anim:hover {
   transform: scale(1.25);
 }
-
 
 /* Journey section styles 
 .journey {
@@ -98,13 +104,13 @@ a#Anim:hover {
 
 /* Footer styles */
 footer {
-  bottom: 0;
   height: 60px;
   color: #464646;
   text-align: center;
-  position: inherit;
   padding-top: 2rem;
-  margin-top: 14%;
+  margin-top: auto;
+  /* Push the footer to the bottom */
+  position: relative;
 }
 
 /* Canvas */
