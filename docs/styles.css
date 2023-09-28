@@ -127,7 +127,6 @@ canvas {
   /* Apply a 75% scaling transform to the body content */
   body {
     transform: scale(0.75);
-    transform-origin: top left;
     overflow-x: hidden;
   }
 }
