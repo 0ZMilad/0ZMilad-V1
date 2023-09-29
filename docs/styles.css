@@ -16,7 +16,7 @@ body {
   flex-direction: column;
   min-height: 100vh;
   /* Ensure the body takes up the full viewport height */
-  background-image: radial-gradient(circle at top right, rgba(228, 225, 222, 0.527), transparent), radial-gradient(circle at 20% 80%, rgba(236, 213, 213, 0.808), transparent);
+  background-image: radial-gradient(circle at top right, rgba(236, 231, 226, 0.527), transparent), radial-gradient(circle at 20% 80%, rgba(248, 217, 217, 0.808), transparent);
 }
 
 /* Home section styles */
@@ -123,21 +123,14 @@ canvas {
   z-index: 0;
 }
 
-@media (aspect-ratio: 1370/952) {
-  /* Zooming out to optimise the screen for 1920px screens*/
-  .name-section {
-    zoom: 0.75;
-  }
+@media (max-width: 480px) {
 
-  #status {
-    zoom: 0.76;
-  }
-
-  .social-links {
-    zoom: 0.75;
-  }
-
+  /* Zooming out to optimize the screen for smaller screens */
+  .name-section,
+  #status,
+  .social-links,
   footer {
-    zoom: 0.78;
+    font-size: 78%;
+    /* You can adjust this value to control the size */
   }
 }
