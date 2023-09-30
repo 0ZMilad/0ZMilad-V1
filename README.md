@@ -1,7 +1,7 @@
 # My Personal Website
 This repository contains the code for my personal website hosted on Github Pages which features some of my github projects as well as my resume and technical skills.
 
-About the [Website](https://0zmilad.github.io/0ZMilad/)
+About the [Website](https://0zmilad.github.io/0ZMilad-V1/)
 - Built with HTML, CSS and vanilla JavaScript
 - Fully responsive design
 - Optimized for performance  
